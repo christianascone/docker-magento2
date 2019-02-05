@@ -7,7 +7,7 @@ services:
       - VIRTUAL_PORT=80
       - HTTPS_METHOD=noredirect
     ports:
-      - 80
+      - "80:80"
     links:
       - web
 
